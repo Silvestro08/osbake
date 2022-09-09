@@ -15,9 +15,10 @@ body {
     left: 0%;
     top: 0%;
     height: 1.5cm;
+    letter-spacing: 1px;
     width: 100%;
-    background-color: rgb(70, 70, 70);
-    border-bottom: 1px solid rgb(85, 85, 85);
+    background-color: rgb(10, 10, 10);
+    border-bottom: 1px solid rgb(25, 25, 25);
     box-shadow: 2px 2px 5px #00000050, 3px 3px 10px #00000050;
     z-index: 10;
 }
@@ -39,12 +40,13 @@ body {
 }
 
 .contatti:hover {
-    transition: 150ms;
+    transition: 500ms;
     color: white;
+    letter-spacing: 2px;
 }
 
 .contatti:not(hover) {
-    transition: 150ms;
+    transition: 500ms;
     color: gainsboro;
 }
 
@@ -56,6 +58,7 @@ body {
 .home:hover {
     transition: 500ms;
     color: white;
+    letter-spacing: 2px;
 }
 
 .home:not(hover) {
@@ -76,6 +79,7 @@ body {
 .eventi:hover {
     transition: 500ms;
     color: white;
+    letter-spacing: 2px;
 }
 
 .crediti {
@@ -85,6 +89,7 @@ body {
 
 .crediti:hover {
     transition: 500ms;
+    letter-spacing: 2px;
     color: white;
 }
 
@@ -101,9 +106,15 @@ body {
 .donazioni:hover {
     transition: 500ms;
     color: white;
+    letter-spacing: 2px;
 }
 
 .donazioni:not(hover) {
     transition: 500ms;
     color: gainsboro;
+}
+
+.vjs-tech {
+    position: absolute;
+    top: 5cm;
 }
